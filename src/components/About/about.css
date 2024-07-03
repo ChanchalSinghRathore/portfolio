@@ -1,0 +1,66 @@
+#about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.skilldes{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 1.5rem;
+}
+
+.skillcontainer{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillbox{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.skillimg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.skilltext>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+@media only screen and (max-width:480px){
+    .skilltext>p {
+        font-size: 3vw;
+    }
+    .skillimg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skilltext>h2{
+        font-size: 5vw;
+
+    }
+}
